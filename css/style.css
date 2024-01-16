@@ -1,0 +1,78 @@
+
+/* index page styles */
+body {
+  background-color: #e8eaf6;
+}
+h1,
+ul.main_page_ul,
+li.main_page_li {
+  text-align: center;
+  line-height: 50px;
+  font-size: 27px;
+}
+h1 {
+  font-family: cursive;
+  font-size: 50px;
+}
+a {
+  text-decoration: none;
+  background: #1976d2;
+  color: white;
+  padding: 3px;
+}
+ul.main_page_ul {
+  list-style-type: none;
+  margin-top: 50px;
+}
+
+.text_animation {
+  font-size: 100px;
+  color: blue;
+  animation-name: colorChange;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  margin-top: 170px;
+}
+
+@keyframes colorChange {
+  0% {
+    color: blue;
+  }
+  25% {
+    color: green;
+  }
+  50% {
+    color: red;
+  }
+  75% {
+    color: yellow;
+  }
+  100% {
+    color: blue;
+  }
+}
+
+/* Other page styles */
+
+img {
+  margin: auto;
+  display: block;
+}
+h1.food_title {
+  font-family: cursive;
+  font-size: 30px;
+}
+body.recipes_body {
+  padding: 25px 16%;
+}
+p {
+  font-size: 17px;
+}
+li.ingredients {
+  line-height: 30px;
+  font-size: 17px;
+}
+li.steps {
+  line-height: 30px;
+  font-size: 17px;
+}
